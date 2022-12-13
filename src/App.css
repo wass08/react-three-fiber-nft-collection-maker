@@ -3,3 +3,9 @@
   height: 1024px;
   margin: 0 auto;
 }
+
+.generate {
+  position: fixed;
+  bottom: 32px;
+  right: 32px;
+}

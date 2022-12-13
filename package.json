@@ -2,11 +2,12 @@
   "name": "react-three-fiber-nft-collection-maker",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "mkdir collection/metadatas; mkdir collection/images; mv collection/*.png collection/images; mv collection/*.json collection/metadatas;",
+    "ipfs": "tools/metadatas_update.sh"
   },
   "dependencies": {
     "@react-three/drei": "^9.46.4",
