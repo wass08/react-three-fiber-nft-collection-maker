@@ -1,7 +1,7 @@
 import { createContext, useContext, useState } from "react";
 import { randInt } from "three/src/math/MathUtils";
 
-const COLLECTION_SIZE = 10;
+const COLLECTION_SIZE = 100;
 
 const CollectionGeneratorContext = createContext({});
 
@@ -199,7 +199,6 @@ export const CollectionGeneratorProvider = ({ children }) => {
     } else {
       setSaveScreenshot(false);
       setCollectionItemNumber(1);
-      console.log(JSON.stringify(generatedItemsDna));
       generatedItemsDna.length = 0;
     }
   };

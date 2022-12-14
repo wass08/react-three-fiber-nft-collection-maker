@@ -36,7 +36,7 @@ export const Experience = () => {
     useCollectionGenerator();
   const screenshot = () => {
     const link = document.createElement("a");
-    link.setAttribute("download", `pirate_${collectionItemNumber}.png`);
+    link.setAttribute("download", `${collectionItemNumber}.png`);
     link.setAttribute(
       "href",
       gl.domElement
@@ -50,14 +50,14 @@ export const Experience = () => {
     const metadatas = {
       name: `Pirate #${collectionItemNumber}`,
       description: `Wawa Pirates by Wawa Sensei is a collection of 100 unique pirate NFTs. Buy me, I'm gonna be the King of Pirates!`,
-      image: `ipfs://IPFS_URI/pirate_${collectionItemNumber}.png`,
+      image: `ipfs://IPFS_URI/${collectionItemNumber}.png`,
       attributes: Object.keys(currentItem).map((key) => ({
         trait_type: key,
         value: currentItem[key].txt_value,
       })),
     };
     const link = document.createElement("a");
-    link.setAttribute("download", `pirate_${collectionItemNumber}.json`);
+    link.setAttribute("download", `${collectionItemNumber}.json`);
     let file = new Blob([JSON.stringify(metadatas, null, 2)], {
       type: "text/plain",
     });
