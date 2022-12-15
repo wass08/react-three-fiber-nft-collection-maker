@@ -18,7 +18,7 @@ const Stage = () => {
         <meshBasicMaterial color={currentItem["Background"].value} />
       </mesh>
 
-      <mesh receiveShadow position={[1, 1, -1]}>
+      <mesh receiveShadow position={[1.5, 1.5, -1]}>
         <circleGeometry args={[1, 64]} />
         <meshBasicMaterial
           color={currentItem["Sun"].value}

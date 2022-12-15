@@ -9,22 +9,22 @@ const traitsCollections = {
   Background: [
     {
       txt_value: "Sea",
-      value: "#a5cced",
+      value: "#00b4ff",
       weight: 40,
     },
     {
       txt_value: "Desert",
-      value: "#fff078",
+      value: "#ffd63a",
       weight: 30,
     },
     {
       txt_value: "Tropical",
-      value: "#61ba67",
+      value: "#03ab0e",
       weight: 20,
     },
     {
       txt_value: "Space",
-      value: "#555555",
+      value: "#424242",
       weight: 10,
     },
   ],
@@ -58,7 +58,7 @@ const traitsCollections = {
     },
     {
       txt_value: "Red",
-      value: "#f64437",
+      value: "#bd0f03",
       weight: 10,
     },
   ],
@@ -70,29 +70,29 @@ const traitsCollections = {
     },
     {
       txt_value: "Blue",
-      value: "#69b4fe",
+      value: "#0b80f4",
       weight: 25,
     },
     {
       txt_value: "White",
-      value: "#ececec",
+      value: "#aaaaaa",
       weight: 15,
     },
     {
       txt_value: "Red",
-      value: "#f64437",
+      value: "#bd0f03",
       weight: 10,
     },
   ],
   Shirt: [
     {
       txt_value: "Red",
-      value: "#bb2b2b",
+      value: "#941b1b",
       weight: 50,
     },
     {
       txt_value: "Blue",
-      value: "#5784c0",
+      value: "#1763c7",
       weight: 25,
     },
     {
@@ -102,7 +102,7 @@ const traitsCollections = {
     },
     {
       txt_value: "Pink",
-      value: "#fc00ff",
+      value: "#ce6ed0",
       weight: 10,
     },
   ],
@@ -124,7 +124,7 @@ const traitsCollections = {
     },
     {
       txt_value: "Pink",
-      value: "#fc00ff",
+      value: "#ce6ed0",
       weight: 10,
     },
   ],
